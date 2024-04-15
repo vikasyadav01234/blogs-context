@@ -17,6 +17,9 @@ function AppContextProvider({children}){
         try{
             const result = await fetch(url);
         }
+        catch(error) {
+            
+        }
     }
 
     const value = {
