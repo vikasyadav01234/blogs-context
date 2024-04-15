@@ -10,6 +10,10 @@ function AppContextProvider({children}){
 
     //data filling pending
 
+    async function fetchBlogPosts(page = 1){
+        
+    }
+
     const value = {
         posts,
         setPosts,
