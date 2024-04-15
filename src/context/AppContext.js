@@ -19,6 +19,7 @@ function AppContextProvider({children}){
             const result = await fetch(url);
             const data = await result.json();
             console.log(data);
+            setPage(data.page);
         }
         catch(error) {
 
