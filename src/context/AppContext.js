@@ -21,6 +21,7 @@ function AppContextProvider({children}){
             console.log(data);
             setPage(data.page);
             setPosts(data.posts);
+            setTotalPages(data.totalPages)
         }
         catch(error) {
 
