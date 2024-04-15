@@ -46,7 +46,7 @@ function AppContextProvider({children}){
         setPage,
         totalPages,
         setTotalPages,
-        fetchBlogPosts
+        fetchBlogPosts,
     };
     //step 2
     return <AppContext.Provider value={value}>
