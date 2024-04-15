@@ -27,6 +27,7 @@ function AppContextProvider({children}){
             console.log("Error in fetching data");
             setPage(1);
             setPosts([]);
+            setTotalPages(null)
         }
     }
 
