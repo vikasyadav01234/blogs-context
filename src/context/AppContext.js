@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import {baseUrl} from "../baseUrl"
 
 // step1
 export const AppContext = createContext();
@@ -12,7 +13,7 @@ function AppContextProvider({children}){
 
     async function fetchBlogPosts(page = 1){
         setLoading(true);
-        let url =
+        let url = `${baseUrl}?page=${page}`;
         try{
             const result = await fetch(url);
         }
