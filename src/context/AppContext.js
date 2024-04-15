@@ -32,8 +32,8 @@ function AppContextProvider({children}){
         setLoading(false)
     }
 
-    function handlePageChange() {
-        
+    function handlePageChange(page) {
+
     }
 
     const value = {
