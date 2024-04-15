@@ -4,7 +4,7 @@ import {AppContext} from '../context/AppContext'
 const Blogs = () => {
     //cansume
 
-    const {loading} = useContext
+    const {loading} = useContext()
     return (
         <div>
 
