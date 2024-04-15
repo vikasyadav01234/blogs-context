@@ -20,6 +20,7 @@ function AppContextProvider({children}){
             const data = await result.json();
             console.log(data);
             setPage(data.page);
+            setPosts(data.posts);
         }
         catch(error) {
 
