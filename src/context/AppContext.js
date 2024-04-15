@@ -10,5 +10,10 @@ function AppContextProvider({children}){
     const [totalPages, setTotalPages] = useState(null)
 
 
-    const value
+    const value = {
+        posts,
+        setPosts,
+        loading,
+        setLoag
+    }
 }
