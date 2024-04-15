@@ -9,7 +9,9 @@ const Blogs = () => {
     const {loading} = useContext(AppContext)
     return (
         <div>
-            
+            {
+                
+            }
         </div>
     )
 }
