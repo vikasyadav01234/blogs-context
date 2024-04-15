@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-
+// step1
 export const AppContext = createContext();
 function AppContextProvider({children}){
     const [loading, setLoading] = useState(false);
