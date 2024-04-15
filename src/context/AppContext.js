@@ -19,5 +19,5 @@ function AppContextProvider({children}){
         setPage,
         totalPages,
         setTotalPages
-    }
+    };
 }
