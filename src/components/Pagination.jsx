@@ -5,3 +5,4 @@ export const Pagination = () => {
     <div>Pagination</div>
   )
 }
+export default
