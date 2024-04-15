@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import
+import Blogs from "./components/Blog"
 
 export default function App() {
   return (
