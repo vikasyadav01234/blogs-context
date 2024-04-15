@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Blogs from "./components/Blog";
-import 
+import  Pagination from "./components/Pagination";
 
 export default function App() {
   return (
