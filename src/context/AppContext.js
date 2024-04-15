@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import {baseUrl} from "../baseUrl"
+import {baseUrl} from "../baseUrl";
 
 // step1
 export const AppContext = createContext();
