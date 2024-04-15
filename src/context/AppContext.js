@@ -24,7 +24,7 @@ function AppContextProvider({children}){
             setTotalPages(data.totalPages)
         }
         catch(error) {
-            console.log()
+            console.log("Error in")
         }
     }
 
