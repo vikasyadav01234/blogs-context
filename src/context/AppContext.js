@@ -24,11 +24,12 @@ export default function AppContextProvider({children}){
             setTotalPages(data.totalPages)
         }
         catch(error) {
-            
+
             console.log("Error in fetching data");
             setPage(1);
             setPosts([]);
             setTotalPages(null);
+            
         }
         setLoading(false)
     }
