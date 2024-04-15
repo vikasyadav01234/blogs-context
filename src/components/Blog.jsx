@@ -1,5 +1,5 @@
 import React from "react";
-import
+import {AppContext}
 
 const Blogs = () => {
     return (
