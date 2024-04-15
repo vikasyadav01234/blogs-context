@@ -14,6 +14,10 @@ function AppContextProvider({children}){
         posts,
         setPosts,
         loading,
-        setLoag
+        setLoading,
+        page,
+        setPage,
+        totalPages,
+        setTotalPages
     }
 }
