@@ -29,6 +29,7 @@ function AppContextProvider({children}){
             setPosts([]);
             setTotalPages(null);
         }
+        setLoading(false)
     }
 
     const value = {
