@@ -25,6 +25,7 @@ function AppContextProvider({children}){
         }
         catch(error) {
             console.log("Error in fetching data");
+            setPage(1);
         }
     }
 
