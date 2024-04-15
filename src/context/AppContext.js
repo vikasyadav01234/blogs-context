@@ -9,6 +9,7 @@ function AppContextProvider({children}){
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(null)
 
+    
     //data filling pending
 
     async function fetchBlogPosts(page = 1){
@@ -18,7 +19,7 @@ function AppContextProvider({children}){
             const result = await fetch(url);
         }
         catch(error) {
-            
+
         }
     }
 
