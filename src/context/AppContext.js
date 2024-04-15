@@ -8,6 +8,7 @@ function AppContextProvider({children}){
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(null)
 
+    //data filling pending
 
     const value = {
         posts,
