@@ -24,7 +24,7 @@ function AppContextProvider({children}){
             setTotalPages(data.totalPages)
         }
         catch(error) {
-            console.log("Error in fetching")
+            console.log("Error in fetching data")
         }
     }
 
