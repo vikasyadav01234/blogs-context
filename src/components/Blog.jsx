@@ -3,6 +3,8 @@ import {AppContext} from '../context/AppContext'
 
 const Blogs = () => {
     //cansume
+
+    const {loading}
     return (
         <div>
 
