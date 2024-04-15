@@ -10,7 +10,7 @@ const Blogs = () => {
     return (
         <div>
             {
-                loading ? (<Spinner/>) : (<AppContext/>)
+                loading ? (<Spinner/>) : (<AppContext/>);
             }
         </div>
     )
