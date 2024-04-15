@@ -19,7 +19,7 @@ function AppContextProvider({children}){
         totalPages,
         setTotalPages
     };
-
+    //step 2
     return <AppContext.Provider value={value}>
         {children}
     </AppContext.Provider>
