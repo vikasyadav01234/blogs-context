@@ -32,6 +32,10 @@ function AppContextProvider({children}){
         setLoading(false)
     }
 
+    function handlePageChange() {
+        
+    }
+
     const value = {
         posts,
         setPosts,
