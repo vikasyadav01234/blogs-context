@@ -33,7 +33,7 @@ function AppContextProvider({children}){
     }
 
     function handlePageChange(page) {
-
+        setPage(page);
     }
 
     const value = {
