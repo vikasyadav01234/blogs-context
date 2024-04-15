@@ -45,7 +45,7 @@ function AppContextProvider({children}){
         page,
         setPage,
         totalPages,
-        setTotalPages
+        setTotalPages,
     };
     //step 2
     return <AppContext.Provider value={value}>
