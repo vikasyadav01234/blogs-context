@@ -13,8 +13,8 @@ const Blogs = () => {
             {
                 loading ? (<Spinner/>) : (
                     posts.length === 0 ? (<div>
-                        <p></p>
-                    </div>) : ()
+                        <p>No Post Found</p>
+                    </div>) : (posts.map( (post) => ( <Card/>)))
                 )
             }
         </div>
