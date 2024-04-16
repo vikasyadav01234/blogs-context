@@ -4,13 +4,14 @@ import Spinner from "./Spinner"
 
 const Blogs = () => {
     //cansume
+    
 
 
     const {loading} = useContext(AppContext)
     return (
         <div>
             {
-                loading ? (<Spinner/>) : (<AppContext/>)
+                loading ? (<Spinner/>) : ()
             }
         </div>
     )
