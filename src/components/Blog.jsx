@@ -11,7 +11,11 @@ const Blogs = () => {
     return (
         <div>
             {
-                loading ? (<Spinner/>) : ()
+                loading ? (<Spinner/>) : (
+                    posts.length === 0 ? (<div>
+                        <p></p>
+                    </div>) : ()
+                )
             }
         </div>
     )
