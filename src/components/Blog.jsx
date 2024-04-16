@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import {AppContext} from '../context/AppContext'
-
+import Spinner
 
 const Blogs = () => {
     //cansume
