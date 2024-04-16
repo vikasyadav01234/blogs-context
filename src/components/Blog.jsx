@@ -14,7 +14,11 @@ const Blogs = () => {
                 loading ? (<Spinner/>) : (
                     posts.length === 0 ? (<div>
                         <p>No Post Found</p>
-                    </div>) : (posts.map( (post) => ( <Card/>)))
+                    </div>) : (posts.map( (post) => (
+                        <div>
+                            <p>{post.title}</p>
+                        </div>
+                    )))
                 )
             }
         </div>
