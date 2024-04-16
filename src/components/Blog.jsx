@@ -7,7 +7,7 @@ const Blogs = () => {
     
 
 
-    const {loading} = useContext(AppContext)
+    const {posts, loading} = useContext(AppContext)
     return (
         <div>
             {
