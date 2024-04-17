@@ -6,7 +6,7 @@ export const Pagination = () => {
     
   return (
     <div className='w-full flex justify-center items-center border'>
-      <div className='flex justify-between w-11/12 max-w-[670px]'>
+      <div className='flex justify-between w-11/12 max-w-[670px] py-2'>
         { page >1 &&
           (
             <button onClick={() => handlePageChange(page-1)}
