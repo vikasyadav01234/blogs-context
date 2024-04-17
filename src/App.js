@@ -11,7 +11,7 @@ export default function App() {
     fetchBlogPosts();
   },[]);
   return (
-    <div className="w-full">
+    <div className="w-full h-full flex-col gap-y-1 justify-center items-center">
       <Header/>
       <Blogs/>
       <Pagination/>
