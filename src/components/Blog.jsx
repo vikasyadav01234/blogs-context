@@ -21,6 +21,7 @@ const Blogs = () => {
                             <p>
                                 By <span>{post.author}</span> on <span>{post.category}</span>
                             </p>
+                            <p>Posted on {post.date}</p>
                         </div>
                     )))
                 )
