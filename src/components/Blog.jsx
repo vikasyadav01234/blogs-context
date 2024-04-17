@@ -23,6 +23,9 @@ const Blogs = () => {
                             </p>
                             <p>Posted on {post.date}</p>
                             <p>{post.content}</p>
+                            <div>
+                                {post.tags.map}
+                            </div>
                         </div>
                     )))
                 )
