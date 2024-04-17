@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 export const Pagination = () => {
   return (
+    const {page} =useContext()
     <div>
       <div>
         {
