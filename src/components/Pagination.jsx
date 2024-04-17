@@ -5,7 +5,7 @@ export const Pagination = () => {
     const {page, handlePageChange, totalPages} =useContext(AppContext)
     
   return (
-    <div className='w-full'>
+    <div className='w-full flex justify-center'>
       <div className='flex justify-between w-0'>
         { page >1 &&
           (
