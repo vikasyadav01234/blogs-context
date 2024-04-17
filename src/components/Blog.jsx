@@ -9,6 +9,7 @@ const Blogs = () => {
 
     const {posts, loading} = useContext(AppContext)
     return (
+        
         <div>
             {
                 loading ? (<Spinner/>) : (
