@@ -3,6 +3,7 @@ import Blogs from "./components/Blog";
 import Pagination from "./components/Pagination";
 import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
+import "./App.css"
 
 export default function App() {
   const {fetchBlogPosts} = useContext(AppContext);
