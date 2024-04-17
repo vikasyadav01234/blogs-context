@@ -10,7 +10,7 @@ const Blogs = () => {
     console.log(posts);
     return (
         
-        <div className="w-11/12 max-w-[670px] py-8 flex flex-col gap-y-7">
+        <div className="w-11/12 max-w-[670px] py-8 flex flex-col gap-y-7 mt-[64px]">
             {
                 loading ? (<Spinner/>) : (
                     posts.length === 0 ? (<div>
