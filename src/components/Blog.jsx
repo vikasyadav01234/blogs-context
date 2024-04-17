@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import {AppContext} from '../context/AppContext'
 import Spinner from "./Spinner"
-import "./Blog.css"
+import "./Blog.css";
 const Blogs = () => {
     //cansume
     
