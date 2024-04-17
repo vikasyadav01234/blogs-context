@@ -9,7 +9,9 @@ export const Pagination = () => {
       <div>
         { page >1 &&
           (
-            <button onClick={() => handlePageChange(page-1)}>
+            <button onClick={() => handlePageChange(page-1)}
+            className='rounded-md border'
+            >
             Previous
             </button>
           )
