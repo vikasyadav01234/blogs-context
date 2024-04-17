@@ -6,7 +6,7 @@ const Blogs = () => {
     //cansume
     
     const {posts, loading} = useContext(AppContext);
-    console.log("Printing inside Blog ")
+    console.log("Printing inside Blog ");
     console.log(posts);
     return (
         
