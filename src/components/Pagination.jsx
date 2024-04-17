@@ -21,6 +21,9 @@ export const Pagination = () => {
             </button>
           )
         }
+        <p>
+          Page {page} of {totalPages}
+        </p>
       </div>
     </div>
   )
