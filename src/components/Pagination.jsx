@@ -7,7 +7,7 @@ export const Pagination = () => {
   return (
     <div>
       <div>
-        {
+        { page >1 &&
           <button>
             Previous
           </button>
