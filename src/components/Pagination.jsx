@@ -8,9 +8,11 @@ export const Pagination = () => {
     <div>
       <div>
         { page >1 &&
-          <button onClick={() => handlePageChange(page-1)}>
+          (
+            <button onClick={() => handlePageChange(page-1)}>
             Previous
-          </button>
+            </button>
+          )
         }
       </div>
     </div>
