@@ -5,7 +5,6 @@ import "./Blog.css";
 const Blogs = () => {
     //cansume
     
-
     const {posts, loading} = useContext(AppContext);
     console.log("Printing inside Blog ")
     console.log(posts);
@@ -19,7 +18,7 @@ const Blogs = () => {
                     </div>) : (posts.map( (post) => (
                         <div key={post.id}>
                             <p className="font-bold text-xs">{post.title}</p>
-                            <p>
+                            <p className="text-[10px]">
                                 By <span>{post.author}</span> on <span>{post.category}</span>
                             </p>
                             <p>Posted on {post.date}</p>
