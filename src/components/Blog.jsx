@@ -24,7 +24,9 @@ const Blogs = () => {
                             <p>Posted on {post.date}</p>
                             <p>{post.content}</p>
                             <div>
-                                {post.tags.map}
+                                {post.tags.map((tag) => {
+                                    return <span>{`#${tag}`}</span>
+                                })}
                             </div>
                         </div>
                     )))
