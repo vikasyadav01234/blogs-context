@@ -10,7 +10,7 @@ export const Pagination = () => {
         { page >1 &&
           (
             <button onClick={() => handlePageChange(page-1)}
-            className='rounded-md border'
+            className='rounded-md border px-4 py-1'
             >
             Previous
             </button>
