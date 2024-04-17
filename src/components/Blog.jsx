@@ -11,14 +11,14 @@ const Blogs = () => {
     console.log(posts);
     return (
         
-        <div className="w-11/12 max-w-[450px]">
+        <div className="w-11/12 max-w-[450px] py-3">
             {
                 loading ? (<Spinner/>) : (
                     posts.length === 0 ? (<div>
                         <p>No Post Found</p>
                     </div>) : (posts.map( (post) => (
                         <div key={post.id}>
-                            <p className="font-bold text-sm">{post.title}</p>
+                            <p className="font-bold text-xs">{post.title}</p>
                             <p>
                                 By <span>{post.author}</span> on <span>{post.category}</span>
                             </p>
