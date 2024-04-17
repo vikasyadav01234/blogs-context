@@ -11,7 +11,7 @@ export default function App() {
     fetchBlogPosts();
   },[]);
   return (
-    <div>
+    <div className="w-full">
       <Header/>
       <Blogs/>
       <Pagination/>
