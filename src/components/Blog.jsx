@@ -18,10 +18,10 @@ const Blogs = () => {
                     </div>) : (posts.map( (post) => (
                         <div key={post.id}>
                             <p className="font-bold text-lg">{post.title}</p>
-                            <p className="text-sm">
+                            <p className="text-sm mt-[4px]">
                                 By <span className="italic">{post.author}</span> on <span className="underline font-bold">{post.category}</span>
                             </p>
-                            <p className="text-md mt-[6px]">Posted on {post.date}</p>
+                            <p className="text-md mt-[4px]">Posted on {post.date}</p>
                             <p className="text-sm mt-[14px]">{post.content}</p>
                             <div className="flex gap-x-3">
                                 {post.tags.map((tag, index) => {
