@@ -2,7 +2,8 @@ import React, { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
 
 export const Pagination = () => {
-  
+  const {page} =useContext(AppContext)
+    
   return (
     <div>
       <div>
