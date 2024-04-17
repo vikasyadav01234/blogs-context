@@ -16,7 +16,7 @@ const Blogs = () => {
                     posts.length === 0 ? (<div>
                         <p>No Post Found</p>
                     </div>) : (posts.map( (post) => (
-                        <div>
+                        <div key={post.id}>
                             <p>{post.title}</p>
                             <p>
                                 By <span>{post.author}</span> on <span>{post.category}</span>
