@@ -23,7 +23,7 @@ const Blogs = () => {
                             </p>
                             <p className="text-[10px]">Posted on {post.date}</p>
                             <p className="text-[11px] mt-[10px]">{post.content}</p>
-                            <div>
+                            <div className="flex gap-x-3">
                                 {post.tags.map((tag, index) => {
                                     return <span key={index} className="text-blue-500 underline font-bold text-[8px]">{`#${tag}`}</span>
                                 })}
