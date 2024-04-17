@@ -18,7 +18,9 @@ export const Pagination = () => {
         }
         { page < totalPages &&
           (
-            <button onClick={() => handlePageChange(page+1)}>
+            <button onClick={() => handlePageChange(page+1)}
+            className='rounded-md border px-4 py-1'
+            >
               Next
             </button>
           )
