@@ -11,7 +11,7 @@ const Blogs = () => {
     console.log(posts);
     return (
         
-        <div>
+        <div className="w-11/12 max-w-[530px]">
             {
                 loading ? (<Spinner/>) : (
                     posts.length === 0 ? (<div>
