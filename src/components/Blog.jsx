@@ -8,6 +8,7 @@ const Blogs = () => {
 
     const {posts, loading} = useContext(AppContext);
     console.log("Printing inside Blog ")
+    console.log(posts)
     return (
         
         <div>
