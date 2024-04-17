@@ -25,7 +25,7 @@ const Blogs = () => {
                             <p className="text-sm mt-[14px]">{post.content}</p>
                             <div className="flex gap-x-3">
                                 {post.tags.map((tag, index) => {
-                                    return <span key={index} className="text-blue-500 underline font-bold text-xs">{`#${tag}`}</span>
+                                    return <span key={index} className="text-blue-500 underline font-bold text-xs mt-[4px]">{`#${tag}`}</span>
                                 })}
                             </div>
                         </div>
