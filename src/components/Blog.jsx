@@ -19,7 +19,7 @@ const Blogs = () => {
                         <div>
                             <p>{post.title}</p>
                             <p>
-                                By <span>{post.author}</span>
+                                By <span>{post.author}</span> on <span>{post.category}</span>
                             </p>
                         </div>
                     )))
