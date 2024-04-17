@@ -6,7 +6,7 @@ export const Pagination = () => {
     
   return (
     <div>
-      <div>
+      <div className='flex justify-between'>
         { page >1 &&
           (
             <button onClick={() => handlePageChange(page-1)}
