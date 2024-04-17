@@ -14,6 +14,13 @@ export const Pagination = () => {
             </button>
           )
         }
+        {
+          (
+            <button onClick={()= handlePageChange(page+1)}>
+              Next
+            </button>
+          )
+        }
       </div>
     </div>
   )
