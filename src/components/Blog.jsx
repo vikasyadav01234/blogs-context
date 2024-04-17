@@ -22,7 +22,7 @@ const Blogs = () => {
                                 By <span className="italic">{post.author}</span> on <span className="underline font-bold">{post.category}</span>
                             </p>
                             <p className="text-[10px]">Posted on {post.date}</p>
-                            <p>{post.content}</p>
+                            <p className="text-sm">{post.content}</p>
                             <div>
                                 {post.tags.map((tag, index) => {
                                     return <span key={index}>{`#${tag}`}</span>
