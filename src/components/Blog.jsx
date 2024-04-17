@@ -18,7 +18,7 @@ const Blogs = () => {
                         <p>No Post Found</p>
                     </div>) : (posts.map( (post) => (
                         <div key={post.id}>
-                            <p className="title text-3xl">{post.title}</p>
+                            <p className="font-bold text-sm">{post.title}</p>
                             <p>
                                 By <span>{post.author}</span> on <span>{post.category}</span>
                             </p>
