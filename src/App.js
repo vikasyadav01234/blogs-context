@@ -22,6 +22,9 @@ export default function App() {
       const category = location.pathname.split("/").at(-1).replace("-"," ");
       fetchBlogPosts(Number(page), null, category);
     }
+    else{
+      fetchBlogPosts(Number(page));
+    }
   },[]);
   return (
     <Routes>
