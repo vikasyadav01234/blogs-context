@@ -5,6 +5,7 @@ import { useLocation, useNavigation } from 'react-router-dom'
 const TagPage = () => {
     const navigation = useNavigation();
     const location = useLocation();
+    const tag = location.pathname.split("/").at(-1);
   return (
     <div>
         <Header/>
