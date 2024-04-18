@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useLocation, useNavigation } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 
@@ -26,6 +26,11 @@ const BlogPage = () => {
         setLoading(false);
 
     }
+    useEffect( () => {
+      if(blogId) {
+        fetchRelatedBlogs();
+      }
+    },[location.pathname])
   return (
     <div>
       
