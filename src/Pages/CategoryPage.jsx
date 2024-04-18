@@ -4,7 +4,7 @@ import { useLocation, useNavigation } from 'react-router-dom'
 
 const CategoryPage = () => {
     const navigation = useNavigation();
-    const location = useLocation
+    const location = useLocation ();
   return (
     <div>
         <Header/>
