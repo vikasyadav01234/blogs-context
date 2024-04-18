@@ -35,6 +35,13 @@ const BlogPage = () => {
   return (
     <div>
       <Header/>
+      <div>
+        <button
+        onClick={()=> navigation(-1)}
+        >
+          Back
+        </button>
+      </div>
     </div>
   )
 }
