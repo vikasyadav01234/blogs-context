@@ -11,7 +11,7 @@ export const Pagination = () => {
         { page >1 &&
           (
             <button onClick={() => handlePageChange(page-1)}
-            className='rounded-md border-2 px-4 py-1'
+            className='rounded-md border-2 px-4 py-1  hover:bg-red-500 hover:text-yellow-100'
             >
             Previous
             </button>
