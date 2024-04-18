@@ -14,7 +14,8 @@ export default function App() {
     const page = searchParams.get("page") ?? 1;
 
     if (location.pathname.includes("tags")){
-      
+      //iska matlab tag wala page show karna h 
+      const tag = location.pathname.split("/").at(-1)
     }
   },[]);
   return (
