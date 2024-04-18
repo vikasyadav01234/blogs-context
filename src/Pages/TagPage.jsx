@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from '../components/Header'
-import { useNavigation } from 'react-router-dom'
+import { useLocation, useNavigation } from 'react-router-dom'
 
 const TagPage = () => {
-    const navigation = useNavigation
+    const navigation = useNavigation();
+    const location = useLocation();
   return (
     <div>
         <Header/>
@@ -14,7 +15,7 @@ const TagPage = () => {
                 back
             </button>
             <h2>
-                Blogs Tagged
+                Blogs Tagged <span>#{tag}</span>
             </h2>
 
         </div>
