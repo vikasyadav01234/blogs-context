@@ -6,7 +6,7 @@ function Spinner() {
 
     <div>
 
-        <div className='loader items-center justify-center mb-[50px]'>
+        <div className='loader items-center'>
             
         </div>
 
