@@ -9,7 +9,7 @@ const TagPage = () => {
         <Header/>
         <div>
             <button
-            onClick={()=> }
+            onClick={()=> navigation(-1)}
             >
                 back
             </button>
