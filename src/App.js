@@ -11,7 +11,7 @@ export default function App() {
   const [searchParams, setSearchParams] = useSearchParams();
   const location = useLocation();
   useEffect( () => {
-    fetchBlogPosts();
+    const page = searchParams.get("page") ?? 1;
   },[]);
   return (
     <Routes>
