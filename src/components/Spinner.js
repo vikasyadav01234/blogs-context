@@ -6,7 +6,7 @@ function Spinner() {
 
     <div>
 
-        <div className='loader items-center'>
+        <div className='loader'>
             
         </div>
 
