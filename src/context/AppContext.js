@@ -12,7 +12,7 @@ export default function AppContextProvider({children}){
 
     //data filling pending
 
-    async function fetchBlogPosts(page = 1){
+    async function fetchBlogPosts(page = 1, tag=null, category){
         setLoading(true);
         let url = `${baseUrl}get-blogs?page=${page}`;
         try{
