@@ -18,6 +18,9 @@ export default function AppContextProvider({children}){
         if(tag){
             url += `&tag=${tag}`
         }
+        if (category) {
+            url += `&category=${category}`
+        }
         try{
             const result = await fetch(url);
             const data = await result.json();
