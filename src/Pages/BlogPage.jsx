@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useLocation, useNavigation } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
+import Header from "../components/Header"
 
 const BlogPage = () => {
     const [blog, setBlog] = useState(null);
@@ -33,7 +34,7 @@ const BlogPage = () => {
     },[location.pathname])
   return (
     <div>
-      
+      <Header/>
     </div>
   )
 }
