@@ -7,7 +7,9 @@ const BlogPage = () => {
     const location = useLocation();
     const navigation = useNavigation();
   return (
-    
+    <div>
+        
+    </div>
   )
 }
 
