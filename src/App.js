@@ -15,7 +15,7 @@ export default function App() {
 
     if (location.pathname.includes("tags")){
       //iska matlab tag wala page show karna h 
-      const tag = location.pathname.split("/").at(-1)
+      const tag = location.pathname.split("/").at(-1).replace("-"," ");
     }
   },[]);
   return (
