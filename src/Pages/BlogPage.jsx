@@ -11,6 +11,7 @@ const BlogPage = () => {
 
     async function fetchRelatedBlogs(){
         setLoading(true)
+        let url = `${baseUrl}?blogId`
     }
   return (
     <div>
