@@ -4,11 +4,12 @@ import Pagination from "./components/Pagination";
 import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import "./App.css"
-import { Route, Routes, useSearchParams } from "react-router-dom";
+import { Route, Routes, useLocation, useSearchParams } from "react-router-dom";
 
 export default function App() {
   const {fetchBlogPosts} = useContext(AppContext);
   const [searchParams, setSearchParams] = useSearchParams();
+  const location = useLocation();
   useEffect( () => {
     fetchBlogPosts();
   },[]);
