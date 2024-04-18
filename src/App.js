@@ -20,6 +20,7 @@ export default function App() {
     }
     else if(location.pathname.includes("categories")){
       const category = location.pathname.split("/").at(-1).replace("-"," ");
+      fetchBlogPosts(Number(page), null, category);
     }
   },[]);
   return (
