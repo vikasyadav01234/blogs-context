@@ -15,6 +15,9 @@ const CategoryPage = () => {
             >
                 Back
             </button>
+            <h2>
+                Blog on <span>{category}</span>
+            </h2>
         </div>
     </div>
   )
