@@ -19,7 +19,9 @@ const BlogPage = () => {
           setRelatedBlogs(data.relatedBlogs);
         }
         catch(error){
-
+          console.log("Error aagya in blog id wali call");
+          setBlog(null);
+          setRelatedBlogs([]);
         }
 
     }
