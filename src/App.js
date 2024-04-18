@@ -25,7 +25,7 @@ export default function App() {
     else{
       fetchBlogPosts(Number(page));
     }
-  },[]);
+  },[location.pathname, location.search]);
   return (
     <Routes>
       <Route path="/" element={<Home/>}/>
