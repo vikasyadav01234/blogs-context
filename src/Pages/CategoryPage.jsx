@@ -10,7 +10,7 @@ const CategoryPage = () => {
         <Header/>
         <div>
             <button
-            onClick={() => }
+            onClick={() => navigation(-1)}
         </div>
     </div>
   )
