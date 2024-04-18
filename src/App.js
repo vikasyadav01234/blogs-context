@@ -18,6 +18,9 @@ export default function App() {
       const tag = location.pathname.split("/").at(-1).replace("-"," ");
       fetchBlogPosts(Number(page), tag);
     }
+    else if(location.pathname.includes("categories")){
+      const category = location.pathname.split("/").at(-1).replace("-"," ");
+    }
   },[]);
   return (
     <Routes>
