@@ -13,6 +13,10 @@ const TagPage = () => {
             >
                 back
             </button>
+            <h2>
+                Blogs Tagged
+            </h2>
+
         </div>
     </div>
   )
