@@ -13,10 +13,13 @@ const BlogPage = () => {
         setLoading(true)
         let url = `${baseUrl}?blogId=${blogId}`;
         try{
-          const res = await fetch()
+          const res = await fetch(url);
+          const data = await res.json();
+          setBlog(data.blog);
+          setRelatedBlogs(data.relatedBlogs);
         }
         catch(error){
-          
+
         }
 
     }
