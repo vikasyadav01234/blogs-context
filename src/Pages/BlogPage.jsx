@@ -42,6 +42,24 @@ const BlogPage = () => {
           Back
         </button>
       </div>
+      {
+        loading ? 
+        (
+          <div>
+            <p>Loading</p>
+          </div>
+        ):
+        blog ? 
+        (
+          <div>
+            <BlogDetails post={blog} />
+            <h2>Related Blog</h2>
+            {
+              relatedBlogs.map( (post) = )
+            }
+          </div>
+        )
+      }
     </div>
   )
 }
