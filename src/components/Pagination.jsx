@@ -20,7 +20,7 @@ export const Pagination = () => {
         { page < totalPages &&
           (
             <button onClick={() => handlePageChange(page+1)}
-            className='rounded-md border-2 px-4 py-1'
+            className='rounded-md border-2 px-4 py-1 hover:bg-sky-700 hover:text-yellow-100 transition-all transition-1s'
             >
               Next
             </button>
