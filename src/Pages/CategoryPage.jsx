@@ -5,6 +5,7 @@ import { useLocation, useNavigation } from 'react-router-dom'
 const CategoryPage = () => {
     const navigation = useNavigation();
     const location = useLocation ();
+    const category = location.pathname.split("/").at(-1);
   return (
     <div>
         <Header/>
