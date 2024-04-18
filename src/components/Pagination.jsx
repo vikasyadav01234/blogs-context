@@ -19,9 +19,9 @@ export const Pagination = () => {
         }
         { page < totalPages &&
           (
-            <div className='bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg'>
+            <div className='max-w-sm rounded-xl bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg'>
             <button onClick={() => handlePageChange(page+1)}
-            className='rounded-md border-2 px-4 py-1 hover:bg-sky-700 hover:text-yellow-100 '
+            className='flex-1 font-bold text-xl bg-white  rounded-md hover:rounded-xl border-2 px-4 py-1 hover:bg-sky-700 hover:text-yellow-100 '
             >
               Next
             </button>
