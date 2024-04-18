@@ -16,7 +16,7 @@ export default function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/blog/:blogId" element={<BlogPage/>}/>
       <Route path="/tag/:tag" element={<TagPage/>}/>
-      <Route path="/categories/:category" element={<Home/>}/>
+      <Route path="/categories/:category" element={<CategoryPage/>}/>
     </Routes>
   )
 }
