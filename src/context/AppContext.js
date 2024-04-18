@@ -16,7 +16,7 @@ export default function AppContextProvider({children}){
         setLoading(true);
         let url = `${baseUrl}get-blogs?page=${page}`;
         if(tag){
-            
+            url += `&tag=${tag}`
         }
         try{
             const result = await fetch(url);
