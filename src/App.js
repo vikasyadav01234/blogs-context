@@ -4,7 +4,7 @@ import Pagination from "./components/Pagination";
 import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import "./App.css"
-import { Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 export default function App() {
   const {fetchBlogPosts} = useContext(AppContext);
@@ -13,7 +13,7 @@ export default function App() {
   },[]);
   return (
     <Routes>
-      
+      <Route path="/" element={<Home/>}/>
     </Routes>
   )
 }
