@@ -23,6 +23,7 @@ const BlogPage = () => {
           setBlog(null);
           setRelatedBlogs([]);
         }
+        setLoading(false);
 
     }
   return (
