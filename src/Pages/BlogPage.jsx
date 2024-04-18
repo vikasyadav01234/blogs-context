@@ -8,6 +8,10 @@ const BlogPage = () => {
     const location = useLocation();
     const navigation = useNavigation();
     const {setLoading, loading} = useContext(AppContext);
+
+    async function fetchRelatedBlogs(){
+        setLoading(true)
+    }
   return (
     <div>
 
