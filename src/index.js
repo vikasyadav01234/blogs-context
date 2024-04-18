@@ -5,10 +5,5 @@ import AppContextProvider from "./context/AppContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowseRouter>
-    
-    <AppContextProvider>
-      <App />
-    </AppContextProvider>
-  </BrowseRouter>
+  
 );
