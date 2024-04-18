@@ -14,8 +14,8 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/blog/:blogId" element={<Home/>}/>
-      <Route path="/tag/:tag" element={<Home/>}/>
+      <Route path="/blog/:blogId" element={<BlogPage/>}/>
+      <Route path="/tag/:tag" element={<TagPage/>}/>
       <Route path="/categories/:category" element={<Home/>}/>
     </Routes>
   )
