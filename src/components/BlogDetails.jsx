@@ -16,6 +16,7 @@ const BlogDetails = () => {
             </NavLink>
         </p>
         <p>Posted on {post.date}</p>
+        <p>{post.content}</p>
     </div>
   )
 }
