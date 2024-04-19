@@ -7,6 +7,7 @@ import "./App.css"
 import { Route, Routes, useLocation, useSearchParams } from "react-router-dom";
 import Home from "./Pages/Home";
 import BlogPage from "./Pages/BlogPage";
+import TagPage from "./Pages/TagPage";
 
 export default function App() {
   const {fetchBlogPosts} = useContext(AppContext);
