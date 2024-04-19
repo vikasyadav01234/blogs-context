@@ -4,7 +4,7 @@ import { AppContext } from '../context/AppContext';
 import Header from "../components/Header"
 import BlogDetails from '../components/BlogDetails';
 import { baseUrl } from '../baseUrl';
-const BlogPage = ({post}) => {
+const BlogPage = ({blogId, post}) => {
     const [blog, setBlog] = useState(null);
     const [relatedBlogs, setRelatedBlogs] = useState([]);
     const location = useLocation();
