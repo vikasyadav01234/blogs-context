@@ -5,6 +5,8 @@ import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import "./App.css"
 import { Route, Routes, useLocation, useSearchParams } from "react-router-dom";
+import Home from "./Pages/Home";
+import BlogPage from "./Pages/BlogPage";
 
 export default function App() {
   const {fetchBlogPosts} = useContext(AppContext);
