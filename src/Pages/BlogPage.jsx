@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useLocation, useNavigation } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 import Header from "../components/Header"
-
+import BlogDetails from '../components/BlogDetails';
 const BlogPage = () => {
     const [blog, setBlog] = useState(null);
     const [relatedBlogs, setRelatedBlogs] = useState([]);
