@@ -17,6 +17,15 @@ const BlogDetails = () => {
         </p>
         <p>Posted on {post.date}</p>
         <p>{post.content}</p>
+        <div>
+            {
+                post.tag.map((tag) => (
+                    <NavLink to={`/tag/${tag.replaceAll(" ","-")}`}>
+                        <span>{`#${tag}`}</span>
+                    </NavLink>
+                ))
+            }
+        </div>
     </div>
   )
 }
