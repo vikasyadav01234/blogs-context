@@ -57,7 +57,7 @@ const BlogPage = () => {
             {
               relatedBlogs.map( (post) = (
                 <div>
-                  <BlogDetails/>
+                  <BlogDetails post={post}/>
                 </div>
               ))
             }
