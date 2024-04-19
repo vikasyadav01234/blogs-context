@@ -3,6 +3,7 @@ import { useLocation, useNavigation } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 import Header from "../components/Header"
 import BlogDetails from '../components/BlogDetails';
+import { baseUrl } from '../baseUrl';
 const BlogPage = () => {
     const [blog, setBlog] = useState(null);
     const [relatedBlogs, setRelatedBlogs] = useState([]);
