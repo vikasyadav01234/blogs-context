@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const BlogDetails = () => {
+const BlogDetails = ({post}) => {
   return (
     <div>
         <NavLink to={`/blog/${post.id}`}>
