@@ -15,6 +15,7 @@ const BlogDetails = () => {
                 <span>{post.category}</span>
             </NavLink>
         </p>
+        <p>Posted on {post.date}</p>
     </div>
   )
 }
