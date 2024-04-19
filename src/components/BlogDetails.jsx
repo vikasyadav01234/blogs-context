@@ -11,6 +11,9 @@ const BlogDetails = () => {
             By
             <span>{post.author}</span>
             on {" "}
+            <NavLink>
+                <span>{post.category}</span>
+            </NavLink>
         </p>
     </div>
   )
