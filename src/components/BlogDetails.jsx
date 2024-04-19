@@ -7,6 +7,11 @@ const BlogDetails = () => {
         <NavLink to={`/blog/${post.id}`}>
             <span>{post.title}</span>
         </NavLink>
+        <p>
+            By
+            <span>{post.author}</span>
+            on {" "}
+        </p>
     </div>
   )
 }
