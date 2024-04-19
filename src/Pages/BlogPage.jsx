@@ -6,6 +6,7 @@ import { useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import BlogDetails from '../components/BlogDetails';
 import { baseUrl } from '../baseUrl';
+import Spinner from "../components/Spinner"
 
 const BlogPage = () => {
     const newBaseUrl = "https://codehelp-apis.vercel.app/api/";
@@ -46,7 +47,7 @@ const BlogPage = () => {
   return (
     <div>
       <Header/>
-      <div>
+      <div className='w-11/12 max-w-2xl mx-auto'>
         <button
         onClick={() => navigation(-1)}
         >
@@ -56,7 +57,7 @@ const BlogPage = () => {
       {
         loading ?
         (<div>
-            <p> Loading</p>
+            <p> <Spinner/></p>
         </div>) :
         blog ?
         (<div>

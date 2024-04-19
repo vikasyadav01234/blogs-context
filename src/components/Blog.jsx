@@ -17,7 +17,9 @@ export default function Blogs() {
         </div>
       ) : (
         posts.map((post) => (
+          <div className="w-11/12 max-w-2xl mx-auto">
           <BlogDetails key={post.id} post={post}/>
+          </div>
         ))
       )}
     </div>
