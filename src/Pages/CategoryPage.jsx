@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { useLocation, useNavigate } from 'react-router-dom';
 import Pagination from '../components/Pagination';
-import Blogs from '../components/Blogs';
+import Blogs from '../components/Blog';
 
 const CategoryPage = () => {
 

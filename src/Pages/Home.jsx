@@ -1,18 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
 import Blogs from '../components/Blog'
+import Header from '../components/Header'
 import Pagination from '../components/Pagination'
 
 const Home = () => {
   return (
     <div>
-        <Header/>
-        <div>
-            <Blogs/>
-            
-            <Pagination/>
-        </div>
-
+      <Header/>
+      <div>
+        <Blogs/>
+        <Pagination/>
+      </div>
     </div>
   )
 }
