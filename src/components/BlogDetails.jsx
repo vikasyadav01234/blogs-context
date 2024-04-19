@@ -11,7 +11,7 @@ const BlogDetails = () => {
             By
             <span>{post.author}</span>
             on {" "}
-            <NavLink>
+            <NavLink to={`/categories/${post.category.replaceAll(" ","-")}`}>
                 <span>{post.category}</span>
             </NavLink>
         </p>
